@@ -1322,7 +1322,7 @@ var sreg_keys = ['nickname', 'email', 'fullname', 'dob', 'gender', 'postcode', '
 
 openid.SimpleRegistration = function SimpleRegistration(options) 
 {
-  this.requestParams = {'openid.ns.sreg': 'http://openid.net/extensions/sreg/1.1'};
+  this.requestParams = { };
   if (options.policy_url)
     this.requestParams['openid.sreg.policy_url'] = options.policy_url;
   var required = [];
